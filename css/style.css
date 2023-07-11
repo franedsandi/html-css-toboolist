@@ -25,3 +25,29 @@ section span{
 main{
   background-color:rgb(246, 248, 249) ;
 }
+.container{
+  margin: auto;
+  width: 80%;
+  max-width: 1200px;
+  background-color: white;
+  border-radius: 5px;
+}
+.buttons{
+  padding: 10px 60px 5px;
+  border-bottom: 1px solid rgb(246, 248, 249);
+}
+button{
+  padding: 5px;
+  border-radius: 5px;
+}
+.buttons .task {
+  background-color: rgb(071, 179, 241);
+  border-color: rgb(071, 179, 241);
+  color: white;
+}
+.buttons .section{
+  background-color: white;
+  color:rgb(233, 236, 238) ;
+  border-color: rgb(233, 236,238);
+
+}
