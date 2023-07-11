@@ -9,7 +9,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 /* header */
-header{
+header , .container, .buttons .nope{
   background-color: white;
 }
 section{
@@ -29,7 +29,6 @@ section span{
   margin: 50px auto 10px;
   width: 80%;
   max-width: 1200px;
-  background-color: white;
   border-radius: 5px;
 }
 /* buttons section */
@@ -47,7 +46,6 @@ section span{
   color: white;
 }
 .buttons .nope{
-  background-color: white;
   color:rgb(233, 236, 238) ;
   border-color: rgb(233, 236,238);
 }
