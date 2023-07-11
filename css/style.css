@@ -46,7 +46,7 @@ section span{
   border-color: rgb(071, 179, 241);
   color: white;
 }
-.buttons .section{
+.buttons .nope{
   background-color: white;
   color:rgb(233, 236, 238) ;
   border-color: rgb(233, 236,238);
@@ -54,7 +54,7 @@ section span{
 
 /* List section */
 .list{
-  padding: 20px 60px;
+  padding: 20px 60px 0px;
 }
 
 ul > li {
