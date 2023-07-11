@@ -8,10 +8,11 @@ body{
   background-color: rgb(246, 248, 249) ;
   font-family: Arial, Helvetica, sans-serif;
 }
-/* header */
 header , .container, .buttons .nope{
   background-color: white;
 }
+
+/* header */
 section{
   height: 65px;
   padding: 8px;
@@ -24,6 +25,7 @@ section img{
 section span{
   line-height: 65px;
 }
+
 /* main */
 .container{
   margin: 50px auto 10px;
@@ -31,6 +33,7 @@ section span{
   max-width: 1200px;
   border-radius: 5px;
 }
+
 /* buttons section */
 .container .buttons{
   padding: 10px 60px 5px;
@@ -54,7 +57,6 @@ section span{
 .list{
   padding: 20px 60px 0px;
 }
-
 ul > li {
   font-weight: bold;
 }
@@ -87,7 +89,6 @@ li{
   padding: 2px 7px;
   color: white;
 }
-
 .block.editorial{
   background-color: rgb(069, 171, 234);
 }
