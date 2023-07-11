@@ -4,9 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  background-color: rgb(246, 248, 249) ;
+}
 /* header */
-
+header{
+  background-color: white;
+}
 section{
   height: 50px;
   margin: 8px;
@@ -20,23 +24,21 @@ section img{
 section span{
   line-height: 50px;
 }
-
 /* main */
-main{
-  background-color:rgb(246, 248, 249) ;
-}
 .container{
-  margin: auto;
+  margin: 50px auto 10px;
   width: 80%;
   max-width: 1200px;
   background-color: white;
   border-radius: 5px;
+
+
 }
-.buttons{
+.container .buttons{
   padding: 10px 60px 5px;
-  border-bottom: 1px solid rgb(246, 248, 249);
+  border-bottom: 3px solid rgb(246, 248, 249);
 }
-button{
+.buttons button{
   padding: 5px;
   border-radius: 5px;
 }
@@ -69,7 +71,6 @@ button{
   color: red;
 }
 .block{
-
   border-radius: 5px;
   padding: 2px 7px;
   color: white;
