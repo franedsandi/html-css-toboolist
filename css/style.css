@@ -6,6 +6,7 @@
 }
 body{
   background-color: rgb(246, 248, 249) ;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* header */
 header{
@@ -16,7 +17,6 @@ section{
   padding: 8px;
   font-size: 30px;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
 }
 section img{
   vertical-align: middle;
@@ -31,9 +31,8 @@ section span{
   max-width: 1200px;
   background-color: white;
   border-radius: 5px;
-
-
 }
+/* buttons section */
 .container .buttons{
   padding: 10px 60px 5px;
   border-bottom: 3px solid rgb(246, 248, 249);
@@ -52,16 +51,26 @@ section span{
   color:rgb(233, 236, 238) ;
   border-color: rgb(233, 236,238);
 }
+
+/* List section */
 .list{
   padding: 20px 60px;
 }
+
 ul > li {
   font-weight: bold;
 }
+ol{
+  padding-bottom: 20px;
+}
+li{
+  padding: 5px;
+}
+
+/* crosses and checks */
 .list .check , .cross{
   border: 1px solid;
   border-radius: 50%;
-  width: 30px;
   font-size: 10px;
   padding: 2px;
 }
@@ -73,18 +82,14 @@ ul > li {
   border-color: red;
   color: red;
 }
+
+/* blocks */
 .block{
   border-radius: 5px;
   padding: 2px 7px;
   color: white;
 }
 
-ol{
-  padding-bottom: 20px;
-}
-li{
-  padding: 5px;
-}
 .block.editorial{
   background-color: rgb(069, 171, 234);
 }
