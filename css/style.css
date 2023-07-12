@@ -72,7 +72,7 @@ li{
   border: 1px solid;
   border-radius: 50%;
   font-size: 10px;
-  padding: 2px;
+  padding: 4px 6px;
 }
 .check{
   border-color: green;
