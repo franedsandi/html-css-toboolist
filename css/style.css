@@ -59,9 +59,8 @@ header span{
 /* List section */
 .list{
   padding: 20px 60px 0px;
-  list-style: none;
 }
-.list ul, .list li{
+ul , li{
   list-style: none;
 }
 .list ul h3::before{
