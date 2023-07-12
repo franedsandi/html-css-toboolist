@@ -8,29 +8,30 @@ body{
   background-color: rgb(246, 248, 249) ;
   font-family: Arial, Helvetica, sans-serif;
 }
-header,.container,.buttons .nope{
+header,.container,.buttons .section{
   background-color: white;
 }
 
 /* header */
-section{
-  height: 65px;
-  padding: 8px;
-  font-size: 30px;
-  font-weight: bold;
+header{
+  height: 70px;
+  padding: 10px 20px;
+  font-size: 40px;
+  font-weight: 900;
 }
-section img{
+header img{
   vertical-align: middle;
+  height: 100%;
 }
-section span{
-  line-height: 65px;
+header span{
+  vertical-align: middle;
 }
 
 /* main */
 .container{
-  margin: 50px auto 10px;
+  margin: 40px auto 10px;
   width: 80%;
-  max-width: 1200px;
+  max-width: 1000px;
   border-radius: 5px;
 }
 
@@ -40,25 +41,31 @@ section span{
   border-bottom: 3px solid rgb(246, 248, 249);
 }
 .buttons button{
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
 .buttons .task {
   background-color: rgb(071, 179, 241);
-  border-color: rgb(071, 179, 241);
+  border: 1px solid rgb(071, 179, 241);;
   color: white;
 }
-.buttons .nope{
-  color:rgb(233, 236, 238) ;
-  border-color: rgb(233, 236,238);
+.buttons .section{
+  color:lightgrey ;
+  border: 1px solid lightgrey;
 }
 
 /* List section */
 .list{
   padding: 20px 60px 0px;
+  list-style: none;
 }
-ul > li {
-  font-weight: bold;
+.list ul, .list li{
+  list-style: none;
+}
+.list ul h3::before{
+  content:'\25BE';
 }
 ol{
   padding-bottom: 20px;
@@ -68,31 +75,38 @@ li{
 }
 
 /* crosses and checks */
-.list .check , .cross{
+.circle::before{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
   border: 1px solid;
   border-radius: 50%;
-  font-size: 10px;
-  padding: 4px 6px;
+  text-align: center;
+  font-size: .8rem;
+  line-height: 15px ;
 }
-.check{
+.circle.check::before{
+  content: '\2713';
   border-color: green;
   color: green;
 }
-.cross{
+.circle.cross::before{
+  content:'✗' ;
   border-color: red;
   color: red;
 }
 
 /* blocks */
 .block{
-  border-radius: 5px;
-  padding: 2px 7px;
+  font-size: .7rem;
+  border-radius: 10px;
+  padding: 5px 8px;
   color: white;
 }
 .block.editorial{
   background-color: rgb(069, 171, 234);
 }
-.block.qgoals{
+.block.goals{
   background-color: rgb(156, 114, 228);
 }
 .block.recruiting{
